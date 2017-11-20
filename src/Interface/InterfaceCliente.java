@@ -287,6 +287,7 @@ public class InterfaceCliente extends javax.swing.JFrame {
     }//GEN-LAST:event_campoIPKeyTyped
 
     private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
+        this.dispose();
         cliente.fechar();
     }//GEN-LAST:event_formWindowClosing
     
